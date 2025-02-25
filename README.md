@@ -1,7 +1,7 @@
 # Personal CV Page
 
 A simple, responsive CV page built with HTML and CSS.
-[live preview] ()
+[ checkout live preview] ()
 ## Technologies Used
 - HTML
 - CSS
