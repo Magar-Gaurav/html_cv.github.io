@@ -1,0 +1,187 @@
+body{
+    background-color: burlywood;
+    padding: 0;
+    margin: 40px;
+    border: 2px solid black;
+    width: 1400px;
+}
+.main {
+    padding: 50px;
+    margin: 40px 200px 50px 100px;
+}
+hr{
+    color: black;
+    border: 2px solid black;
+    width: 100%;
+    margin-right: 600px;
+}
+h1, h2{
+    color:  rgb(37, 206, 37);
+    font-size: 30px;
+}
+p, ul{
+    font-size: 24px;
+}
+.internet1{
+    display: flex;
+}
+a{  
+    padding-left: 20px;
+    color:rgb(49, 11, 240);
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+a:active{
+    color: yellow;
+}
+/*  Mobile: Up to 480px */
+@media (max-width: 480px) {
+    body {
+        margin: 10px;
+        padding: 0;
+        max-width: 95%;
+        background-color: white;
+    }
+    hr {
+        border: 1px solid black;
+        width: 90%;
+    }
+    .main {
+        padding: 15px;
+        margin: 5px;
+    }
+    h1, h2 {
+        font-size: 20px;
+    }
+    p, ul, .experience p {
+        font-size: 14px;
+    }
+    .internet1 p a {
+        color: red;
+        font-size: 15px;
+    }
+    .internet1 p a:hover {
+        color: blue;
+    }
+    .internet1 p a:active{
+        color: yellow;
+    }
+}
+
+/* Tablets: 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        margin: 20px 20px 20px 15px;
+        padding: 0;
+        /* width: 725px; */
+        max-width: 95%;
+        background-color: antiquewhite;
+    }
+    hr {
+        width: 90%;
+        border: 2px solid black;
+    }
+    .main {
+        padding: 20px;
+        margin: 10px;
+    }
+    .skill p {
+        width: 90%;
+        font-size: 15px;
+    }
+    h1, h2 {
+        font-size: 25px;
+    }
+    p, ul, .experience p {
+        font-size: 18px;
+    }
+    .internet1 p a {
+        color: red;
+        font-size: 18px;
+    }
+    .internet1 p a:hover {
+        color: blue;
+    }
+    .internet1 p a:active{
+        color: yellow;
+    }
+}
+
+/* Small Laptops: 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        margin: 30px 30px 30px 25px;
+        padding: 0;
+        max-width: 95%;
+        background-color: aquamarine;
+    }
+    hr {
+        width: 90%;
+        border: 2px solid black;
+    }
+    .main {
+        padding: 30px;
+        margin: 20px;
+    }
+    .skill p {
+        width: 95%;
+        font-size: 18px;
+    }
+    h1, h2 {
+        font-size: 28px;
+    }
+    p, ul, .experience p {
+        font-size: 20px;
+    }
+    .internet1 p a {
+        color: red;
+        font-size: 20px;
+    }
+    .internet1 p a:hover {
+        color: blue;
+    }
+    .internet1 p a:active{
+        color: yellow;
+    }
+}
+
+/* Large Screens: 1025px and above */
+@media (min-width: 1025px) {
+    body {
+        padding: 0;
+        max-width: 95%;
+        background-color: bisque;
+    }
+    hr {
+        width: 90%;
+        border: 2px solid black;
+    }
+    .main {
+        padding: 40px;
+        margin: 20px;
+    }
+    .skill p {
+        width: 90%;
+        font-size: 20px;
+    }
+    h1, h2 {
+        font-size: 32px;
+    }
+    p, ul, .experience p {
+        font-size: 22px;
+    }
+    .internet1 p a {
+        color: red;
+        font-size: 20px;
+    }
+    .internet1 p a:hover {
+        color: blue;
+    }
+    .internet1 p a:active{
+        color: yellow;
+    }
+}
