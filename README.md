@@ -1,8 +1,6 @@
 # Personal CV Page
 
-A simple, responsive CV page built with HTML and CSS.
-
-[live preview](https://magar-gaurav.github.io/html_cv.github.io)
+A simple, responsive CV page built with HTML and CSS.[live preview](https://magar-gaurav.github.io/html_cv.github.io)
 ## Technologies Used
 - HTML
 - CSS
@@ -10,7 +8,7 @@ A simple, responsive CV page built with HTML and CSS.
 
 ## Installation
 1. Clone the repository:
-   ```bash
+```bash
     git clone https://github.com/Magar-Gaurav/html_cv.github.io
-   ```   
+```  
 
