@@ -9,6 +9,6 @@ A simple, responsive CV page built with HTML and CSS.[live preview](https://maga
 ## Installation
 1. Clone the repository:
 ```bash
-    git clone https://github.com/Magar-Gaurav/html_cv.github.io
-```  
+git clone https://github.com/Magar-Gaurav/html_cv.github.io
+ 
 
